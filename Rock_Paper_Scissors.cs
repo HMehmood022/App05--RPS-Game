@@ -72,6 +72,13 @@ namespace RockPaperScissors
 
                 Console.WriteLine(" ---------------------------------------------- ");
                 Console.WriteLine(" Hello " + Players[index] + " This is a game of rock paper scissors. "); 
+                Console.WriteLine(" ---------------------------------------------- ");
+                Console.WriteLine(" The rules of the game are as follows: ");
+                Console.WriteLine(" 1. the game will be best out of 3. ");
+                Console.WriteLine(" 2. Rock beats scissors. ");
+                Console.WriteLine(" 3. Scissors beats paper ");
+                Console.WriteLine(" 4. Paper beats rock. ");
+                Console.WriteLine(" 5. If a round ends with both the player and the CPU making the same choice, it shall end in a draw and no points will be awarded. ")
 
 
                 string userInput; //will be used for our player input
